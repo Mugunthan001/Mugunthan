@@ -1,4 +1,4 @@
-n1,n2=input().split()
-n1=int(n1)
-n2=int(n2)
-print(pow(n1,n2))
+n11,n12=input().split()
+n11=int(n11)
+n12=int(n12)
+print(pow(n11,n12))
