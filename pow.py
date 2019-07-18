@@ -1,3 +1,4 @@
-a=int(input())
-b=int(input())
+a,b=input().split()
+a=int(a)
+b=int(b)
 print(pow(a,b))
