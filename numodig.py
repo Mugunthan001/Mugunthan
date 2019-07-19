@@ -1,3 +1,3 @@
-num=int(input())
+num=input()
 temp=num
 print(len(temp))
