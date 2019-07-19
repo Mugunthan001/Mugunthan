@@ -5,5 +5,5 @@ if size%2==0:
 	stng[dig-1]=stng[dig]='*'
 else:
 	dig=size//2
-	stng[d]='*'
+	stng[dig]='*'
 print(*stng,sep="")
