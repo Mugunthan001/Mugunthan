@@ -1,0 +1,11 @@
+n11,n12=input().split()
+n11=int(n11)
+n12=int(n12)
+if(n11>n12):
+	diff=n12-n11
+else:
+	diff=n11-n12
+if(diff%2==0):
+	print('even')
+else:
+	print('odd')
