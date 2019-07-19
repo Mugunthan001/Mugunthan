@@ -4,4 +4,5 @@ n22=int(n22)
 temp=n11
 n11=n22
 n22=temp
-print(n11,end=" ",n22)
+print(n11,end=" ")
+print(n22)
