@@ -1,2 +1,4 @@
-num1,num2=map(int,input().split())
-print(abs(num1-num2))
+num1,num2=input().split()
+num1=int(num1)
+num2=int(num2)
+print(num2-num1)
