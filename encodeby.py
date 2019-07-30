@@ -1,10 +1,13 @@
 #M
-import sys, string, math
-s = input()
-L = []
-for c in s :
-    k = ord(c) + 3
-    if k > ord('Z') : k -= 26
-    L.append(chr(k))
-s2 = ''.join(L)
-print(s2)
+d=[]
+for i in range(3):
+    p=list(input().split())
+    d.append(p)
+if d[0][0]==d[1][0] and d[2][0]==d[1][0]:
+    print("yes")
+elif d[0][1]==d[1][1] and d[2][1]==d[1][1]:
+    print("yes")
+elif  d[0][0]==d[0][1] and d[1][0]==d[1][1] and d[2][0]==d[2][1]:
+    print ("yes")
+else:
+    print("no")
