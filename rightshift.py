@@ -1,7 +1,7 @@
 #M
-n,k=map(int,input().split())
-g=[]
-l=list(map(int,input().split()))
-g=(l[-k:]+l[:-k])
-for i in range(0,len(g)):
-	print(g[i],end=" ")
+import sys, string, math
+n,k = map(int,input().split())
+k = k%n
+L = list(map(int,input().split()))
+L2 = L[-k:] + L[:-k]
+print(*L2)
