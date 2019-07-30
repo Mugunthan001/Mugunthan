@@ -1,7 +1,6 @@
 #M
-import sys, string, math
-n,k = map(int,input().split())
-k = k%n
-L = list(map(int,input().split()))
-L2 = L[-k:] + L[:-k]
-print(*L2)
+num=list(map(int,input()))
+sum=0
+for i in range(0,len(num)):
+    sum=sum+(num[i]**2)
+print(sum)
