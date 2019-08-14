@@ -1,3 +1,4 @@
+#M
 n,k=map(int,input().split())
 m=[]
 for i in range(0,min(n,k)):
